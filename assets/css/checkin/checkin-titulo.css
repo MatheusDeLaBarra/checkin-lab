@@ -1,0 +1,11 @@
+.checkin__titulo{
+    position: relative;
+    bottom: 20%;
+    font-family: var(--font-family-primary);
+    font-size: 4.8rem;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--color-primary);
+    text-shadow: 1px 1px #000;
+}

@@ -1,0 +1,15 @@
+.checkin__caixa {
+
+    margin: 2rem auto;
+    
+    background: var(--bg-color-primary);
+
+    width: 600px;
+    height: 700px;
+
+    border: solid 2px var(--color-tertiary);
+    border-radius: 5%;
+
+    display: flex;
+    flex-direction: column;
+}

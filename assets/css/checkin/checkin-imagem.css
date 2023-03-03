@@ -1,0 +1,7 @@
+.checkin__imagem {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.;
+    border-radius: 30px;
+}

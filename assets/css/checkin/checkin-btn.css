@@ -1,0 +1,15 @@
+.checkin__btn {
+    position: relative;
+    top : 10%;
+
+    background: var(--color-tertiary);
+
+    color: var(--color-primary);   
+
+    transition: all 1s;
+}
+
+.checkin__btn:hover {
+    background-color: #d1053f;
+    cursor: pointer;
+}

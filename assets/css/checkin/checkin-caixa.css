@@ -2,8 +2,8 @@
 
     margin: 2rem auto;
     
-    background: var(--bg-color-primary);
-
+    background-color:#f4f4f4 ;
+    
     width: 600px;
     height: 700px;
 
@@ -11,5 +11,6 @@
     border-radius: 5%;
 
     display: flex;
+    align-items: center;
     flex-direction: column;
 }

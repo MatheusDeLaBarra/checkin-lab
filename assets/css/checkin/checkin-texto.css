@@ -1,0 +1,12 @@
+.checkin__texto {
+    color: var(--color-tertiary);
+
+    font-style: italic;
+    font-weight: bold;
+    
+    text-transform: uppercase;
+
+    margin-top:10%;
+    margin-right: 65%;
+    margin-bottom: 1%;
+}

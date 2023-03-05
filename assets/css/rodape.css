@@ -1,0 +1,10 @@
+.rodape {
+    background-color: var(--color-secundary);
+    border-top: solid 4px var(--color-tertiary);
+
+    display: flex;
+    justify-content: space-around;
+
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}

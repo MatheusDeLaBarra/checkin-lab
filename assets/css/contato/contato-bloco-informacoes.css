@@ -1,0 +1,5 @@
+.contato__bloco-informacoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

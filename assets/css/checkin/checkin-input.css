@@ -8,11 +8,19 @@
     font-weight: bold;
 
     text-transform: uppercase;
-
-    border: solid 2px var(--color-tertiary);
+    border: none;
+    border-bottom: solid 4px var(--color-tertiary);
     border-radius: 10px;
 }
 
 .checkin__input:focus{
     outline: none;
+}
+
+::placeholder {
+    color: var(--color-tertiary);
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    opacity: 0.4;
 }

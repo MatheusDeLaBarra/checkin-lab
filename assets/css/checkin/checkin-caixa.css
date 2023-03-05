@@ -7,7 +7,7 @@
     width: 600px;
     height: 700px;
 
-    border: solid 2px var(--color-tertiary);
+    border: solid 4px var(--color-tertiary);
     border-radius: 5%;
 
     display: flex;

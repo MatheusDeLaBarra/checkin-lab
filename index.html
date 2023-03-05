@@ -1,60 +1,144 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Onboard - Embarque Digital</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,700&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./assets/css/reset.css">
-    <link rel="stylesheet" href="./assets/css/base-style.css">
-    <link rel="stylesheet" href="./assets/css/cabecalho.css">
-    <link rel="stylesheet" href="./assets/css/menu/menu.css">
-    <link rel="stylesheet" href="./assets/css/menu/menu-navegacao.css">
-    <link rel="stylesheet" href="./assets/css/menu/menu-itens.css">
-    <link rel="stylesheet" href="./assets/css/menu/menu-link.css">
-    <link rel="stylesheet" href="./assets/css/checkin.css">
-    <link rel="stylesheet" href="./assets/css/checkin/checkin-caixa.css">
-    <link rel="stylesheet" href="./assets/css/checkin/checkin-bloco.css">
-    <link rel="stylesheet" href="./assets/css/checkin/checkin-imagem.css">
-    <link rel="stylesheet" href="./assets/css/checkin/checkin-titulo.css">
-    <link rel="stylesheet" href="./assets/css/checkin/checkin-linha.css">
-    <link rel="stylesheet" href="./assets/css/checkin/checkin-texto.css">
-    <link rel="stylesheet" href="./assets/css/checkin/checkin-input.css">
-    <link rel="stylesheet" href="./assets/css/checkin/checkin-btn.css">
-    <link rel="stylesheet" href="./assets/css/botao.css">
-</head>
-<body>
-    <header class="cabecalho">
-    <div class="cabecalho container">
-        <img src="./assets/src/img/logo/onboard-logobranca.png" alt="Logo de Onboard" class="cabecalho__logo">
-        <img src="./assets/src/img/logo/porto-digital-logo.png" alt="Logo de Onboard" class="cabecalho__logo">
-    </div>
-        <nav class="menu container">
-          <ul class="menu__navegacao">
-            <li class="menu__itens"><a class="menu__link ativo" href="#">Sobre</a></li>
-            <li class="menu__itens"><a class="menu__link" href="#">Planos</a></li>
-            <li class="menu__itens"><a class="menu__link" href="#">Blog</a></li>
-            <li class="menu__itens"><a class="menu__link" href="#">Destaques</a></li>
-            <li class="menu__itens"><a class="menu__link" href="#">Institucional</a></li>
-            <li class="menu__itens"><a class="menu__link" href="#">Contato</a></li>
-          </ul>
-        </nav>
-    </header>
-    <section class="checkin container">
-       <div class="checkin__caixa"> 
-        <div class="checkin__bloco checkin-imagem">
-            <h1 class="checkin__titulo">Onboard Porto Digital</h1>
-            <div class="checkin__linha"></div>
-        </div>
 
-        <label class="checkin__texto">Nome completo:</label>
-        <input type="text" class="checkin__input" placeholder="Digite seu nome">
-        <button class="checkin__btn botao">Buscar</button>
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Onboard - Embarque Digital</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,700&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/reset.css">
+  <link rel="stylesheet" href="./assets/css/base-style.css">
+  <link rel="stylesheet" href="./assets/css/cabecalho.css">
+  <link rel="stylesheet" href="./assets/css/menu/menu.css">
+  <link rel="stylesheet" href="./assets/css/menu/menu-navegacao.css">
+  <link rel="stylesheet" href="./assets/css/menu/menu-itens.css">
+  <link rel="stylesheet" href="./assets/css/menu/menu-link.css">
+  <link rel="stylesheet" href="./assets/css/checkin.css">
+  <link rel="stylesheet" href="./assets/css/checkin/checkin-caixa.css">
+  <link rel="stylesheet" href="./assets/css/checkin/checkin-bloco.css">
+  <link rel="stylesheet" href="./assets/css/checkin/checkin-imagem.css">
+  <link rel="stylesheet" href="./assets/css/checkin/checkin-titulo.css">
+  <link rel="stylesheet" href="./assets/css/checkin/checkin-linha.css">
+  <link rel="stylesheet" href="./assets/css/checkin/checkin-texto.css">
+  <link rel="stylesheet" href="./assets/css/checkin/checkin-input.css">
+  <link rel="stylesheet" href="./assets/css/checkin/checkin-btn.css">
+  <link rel="stylesheet" href="./assets/css/botao.css">
+  <link rel="stylesheet" href="./assets/css/contato.css">
+  <link rel="stylesheet" href="./assets/css/contato/contato-bloco-titulo.css">
+  <link rel="stylesheet" href="./assets/css/contato/contato-bloco-informacoes.css">
+  <link rel="stylesheet" href="./assets/css/contato/contato-titulo.css">
+  <link rel="stylesheet" href="./assets/css/contato/contato-imagem.css">
+  <link rel="stylesheet" href="./assets/css/contato/contato-texto.css">
+  <link rel="stylesheet" href="./assets/css/contato/contato-informacoes.css">
+  <link rel="stylesheet" href="./assets/css/contato/contato-icones.css">
+  <link rel="stylesheet" href="./assets/css/contato/contato-itens.css">
+  <link rel="stylesheet" href="./assets/css/contato/contato-link.css">
+  <link rel="stylesheet" href="./assets/css/contato/contato-bloco-figure.css">
+  <link rel="stylesheet" href="./assets/css/rodape.css">
+  <link rel="stylesheet" href="./assets/css/rodape/rodape-bloco-informacoes.css">
+  <link rel="stylesheet" href="./assets/css/rodape/rodape-texto.css">
+  <link rel="stylesheet" href="./assets/css/rodape/rodape-titulo.css">
+  <link rel="stylesheet" href="./assets/css/rodape/rodape-imagem.css">
+  <link rel="stylesheet" href="./assets/css/rodape/rodape-itens.css">
+  <link rel="stylesheet" href="./assets/css/rodape/rodape-redes-sociais.css">
+</head>
+
+<body>
+  <header class="cabecalho">
+    <div class="cabecalho container">
+      <img src="./assets/src/img/logo/onboard-logobranca.png" alt="Logo de Onboard" class="cabecalho__logo">
+      <img src="./assets/src/img/logo/porto-digital-logo.png" alt="Logo de Onboard" class="cabecalho__logo">
     </div>
-    </section>
+    <nav class="menu container">
+      <ul class="menu__navegacao">
+        <li class="menu__itens"><a class="menu__link ativo" href="#">Sobre</a></li>
+        <li class="menu__itens"><a class="menu__link" href="#">Planos</a></li>
+        <li class="menu__itens"><a class="menu__link" href="#">Blog</a></li>
+        <li class="menu__itens"><a class="menu__link" href="#">Destaques</a></li>
+        <li class="menu__itens"><a class="menu__link" href="#">Institucional</a></li>
+        <li class="menu__itens"><a class="menu__link" href="#">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section class="checkin container">
+    <div class="checkin__caixa">
+      <div class="checkin__bloco checkin-imagem">
+        <h1 class="checkin__titulo">Onboard Porto Digital</h1>
+        <div class="checkin__linha"></div>
+      </div>
+
+      <label class="checkin__texto">Nome completo:</label>
+      <input type="text" class="checkin__input" placeholder="Digite seu nome">
+      <button class="checkin__btn botao">Buscar</button>
+    </div>
+  </section>
+  <section class="contato container">
+    <div class="contato__bloco-titulo">
+      <h2 class="contato__titulo">Contato</h2>
+      <img src="./assets/src/img/background/contato-img.png" alt="" class="contato__imagem">
+    </div>
+    <div class="contato__bloco-informacoes container">
+      <p class="contato__texto">Tem alguma dúvida, sugestão ou quer que sua empresa/instituição participe?
+        Fala com a gente.</p>
+      <div class="contato__bloco-figure">
+        <figure class="contato__informacoes">
+          <img src="./assets/src/img/ico/silhueta-de-multiplos-usuarios.png" alt="" class="contato__icones">
+          <figcaption class="contato__itens"><a class="contato__link" href="#">Participe da nossa lista de
+              transmissão</a></figcaption>
+        </figure>
+        <figure class="contato__informacoes">
+          <img src="./assets/src/img/ico/o-email.png" alt="Icone de usuarios" class="contato__icones">
+          <figcaption class="contato__itens"><a class="contato__link" href="#">Envie um email para
+              residencia@portodigital.org</a></figcaption>
+        </figure>
+        <figure class="contato__informacoes">
+          <img src="./assets/src/img/ico/pin-de-localizacao.png" alt="" class="contato__icones">
+          <figcaption class="contato__itens"><a class="contato__link" href="#">Av Cais do Apolo, Nº222, 1ªandar, Recife
+              Antigo</a></figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+  <footer class="rodape">
+    <div class="rodape__bloco-informacoes">
+      <img class="rodape__imagem" src="./assets/src/img/logo/porto-digital-logo.png" alt="Logo do Porto Digital">
+      <p class="rodape__texto">Av. Cais do Apolo, 222 - Bairro do Recife CEP 50030-230, Recife/PE - Brasil</p>
+      <div class="rodape__redes-sociais">
+        <a href="#" class="rodape__itens"><img src="./assets/src/img/ico/facebook.svg" alt="Logo do facebook"></a>
+        <a href="#" class="rodape__itens"><img src="./assets/src/img/ico/instagram.svg" alt="Logo do instagram"></a>
+        <a href="#" class="rodape__itens"><img src="./assets/src/img/ico/twitter.svg" alt="Logo do twitter"></a>
+        <a href="#" class="rodape__itens"><img src="./assets/src/img/ico/linkedin.svg" alt="Logo do linkedin"></a>
+      </div>
+    </div>
+    <div class="rodape__bloco-informacoes">
+      <h3 class="rodape__titulo">O que é o Porto Digital</h3>
+      <a href="#" class="rodape__texto">Iniciativa privada, governo e universidades</a>
+      <a href="#" class="rodape__texto">Política pública</a>
+      <a href="#" class="rodape__texto">Documentação</a>
+      <a href="#" class="rodape__texto">Localização</a>
+      <a href="#" class="rodape__texto">Visite o parque</a>
+    </div>
+    <div class="rodape__bloco-informacoes">
+      <h3 class="rodape__titulo">Empreendedorismo</h3>
+      <a href="#" class="rodape__texto">Suporte do Empreendedorismo</a>
+      <a href="#" class="rodape__texto">Mind the Bizz</a>
+      <a href="#" class="rodape__texto">incubação</a>
+      <a href="#" class="rodape__texto">Empreendedorismo</a>
+    </div>
+    <div class="rodape__bloco-informacoes">
+      <h3 class="rodape__titulo">Fale Conosco</h3>
+      <a href="#" class="rodape__texto">Dúvidas Frequentes</a>
+      <a href="#" class="rodape__texto">Política de Privacidade</a>
+      <a href="#" class="rodape__texto">+55 81 3419-8014</a>
+      <a href="#" class="rodape__texto">portodigital@portodigital.org</a>
+    </div>
+  </footer>
 </body>
+
 </html>

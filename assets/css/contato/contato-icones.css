@@ -1,0 +1,7 @@
+.contato__icones {
+    background-color: var(--color-tertiary);
+    width: 50px;
+    height: 40px;
+
+    border-radius:100%;
+}

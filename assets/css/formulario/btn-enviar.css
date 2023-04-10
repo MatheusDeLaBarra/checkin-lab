@@ -1,0 +1,20 @@
+.submit {
+    position: relative;
+    left: 70%;
+
+    width: 170px;
+    height: 50px;
+    
+    font-size: 1.285rem;
+    font-weight: 400;
+
+    color: var(--color-primary);
+    background-color: var(--bg-color-tertiary);
+
+    border: none;
+}
+
+.submit:hover {
+    cursor: pointer;
+    background-color: #d61337;
+}

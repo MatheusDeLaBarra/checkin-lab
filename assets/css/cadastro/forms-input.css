@@ -1,9 +1,0 @@
-.forms__input {
-    width: 40vh;
-    height: 2.5vh;
-    border-radius: 10px;
-
-}
-.forms__input:focus{
-    border: none;
-}

@@ -1,0 +1,5 @@
+.mensagem__erro {
+    color: var(--color-tertiary);
+    font-weight: 300;
+    font-size: 1rem;
+}

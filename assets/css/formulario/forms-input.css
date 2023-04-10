@@ -1,0 +1,21 @@
+.forms__input {
+    border-radius: 10px;
+    font-size: 1.5rem;
+    color: var(--color-tertiary);
+
+}
+.forms__input:focus{
+    outline: none;
+    border-bottom: 3px solid #f5395d;
+    height: 2em;
+}
+
+.campo__ecrita-maior {
+    width: 25em;
+    height: 1.5em;
+}
+
+.campo__ecrita-menor {
+    width: 12.5em;
+    height: 1.5em;
+}

@@ -1,0 +1,13 @@
+.texto__termos-uso {
+    max-width: 900px ;
+
+    color: var(--color-primary);
+
+    text-align: center;
+    font-size: 1rem;
+}
+
+.container {
+    padding: 0.5em 3em;
+    margin: 0.5em 2em;
+}

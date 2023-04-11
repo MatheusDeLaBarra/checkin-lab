@@ -17,7 +17,7 @@ formulario.addEventListener("submit", (e) => {
     
     localStorage.setItem("cadastro", JSON.stringify(listaRespostas));
 
-    window.location.href = '../cadastro-form-3.html';
+    window.location.href = '../pages/cadastro-form-3.html';
 })
 
 camposDoFormulario.forEach((campo) => {

@@ -8,7 +8,7 @@ formulario.addEventListener("submit", (e) => {
         "termos": e.target.elements["termos"].value,
     }
     
-    window.location.href = '../cadastro-form-2.html';
+    window.location.href = '../pages/cadastro-form-2.html';
 })
 
 camposDoFormulario.forEach((campo) => {

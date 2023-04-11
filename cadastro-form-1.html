@@ -23,9 +23,11 @@
     <link rel="stylesheet" href="/assets/css/cadastro/cadastro-titulo.css">
     <link rel="stylesheet" href="./assets/css/cadastro/cadastro-status.css">
     <link rel="stylesheet" href="/assets/css/formulario/formulario.css">
-    <link rel="stylesheet" href="/assets/css/formulario/forms.css">
-    <link rel="stylesheet" href="/assets/css/formulario/forms-label.css">
-    <link rel="stylesheet" href="/assets/css/formulario/forms-input.css">
+    <link rel="stylesheet" href="./assets/css/formulario/forms.css">
+    <link rel="stylesheet" href="/assets/css/formulario/termos-uso/titulo-politica-uso.css">
+    <link rel="stylesheet" href="/assets/css/formulario/termos-uso/texto-termos-uso.css">
+    <link rel="stylesheet" href="./assets/css/formulario/termos-uso/formulario-termos.css">
+    <link rel="stylesheet" href="./assets/css/formulario/termos-uso/termos-input.css">
     <link rel="stylesheet" href="/assets/css/formulario/mensagem-erro.css">
     <link rel="stylesheet" href="./assets/css/formulario/btn-enviar.css">
     <link rel="stylesheet" href="./assets/css/rodape.css">
@@ -57,61 +59,55 @@
     <main>
         <section class="cadastro">
             <div class="cadastro__container">
-                <img class="cadastro__status" src="./assets/src/img/ico/status-3.png">
+                <img class="cadastro__status" src="./assets/src/img/ico/status-1.png">
                 <h2 class="cadastro__titulo">Preencha os campos abaixo para se cadastrar!</h2>
             </div>
-            <form class="formulario">
-                <fieldset class="forms">
-                    <label for="ingresso" class="forms__label">Informe o tipo de entrada na residência </label>
-                    <select name="ingresso" id="ingresso" type="text" class="forms__input campo__ecrita-menor" required>
-                        <option selected value="">Selecione uma opção</option>
-                        <option value="EMBARQUE DIGITAL">Embarque Digital</option>
-                        <option value="IES">Intituição de Ensino Parceira</option>
-                    </select>
-                    <span class="mensagem__erro"></span>
-                </fieldset>
-                <fieldset class="forms">
-                    <label for="ano-matricula" class="forms__label">Informe o ano de entrada na residência </label>
-                    <input name="ano-matricula" id="ano-matricula" type="text" class="forms__input campo__ecrita-menor" pattern="^(19|20)\d{2}\.(1|2)$" required>
-                    <span class="mensagem__erro"></span>
-                </fieldset>
-                <fieldset class="forms">
-                    <label for="universidade" class="forms__label">Universidade</label>
-                    <select name="universidade" id="universidade" type="text" class="forms__input campo__ecrita-menor"
-                        required>
-                        <option selected value="">Selecione uma opção</option>
-                        <option value="SENAC">Senac</option>
-                        <option value="UNICAP">Unicap</option>
-                        <option value="UNIT">Unit</option>
-                        <option value="UNINASSAU">Uninassau</option>
-                        <option value="FICR">Ficr</option>
-                        <option value="IFPE">IFPE</option>
-                    </select>
-                    <span class="mensagem__erro"></span>
-                </fieldset>
-                <fieldset class="forms">
-                    <label for="curso" class="forms__label">Curso</label>
-                    <select name="curso" id="curso" type="text" class="forms__input" required>
-                        <option selected value="">Selecione uma opção</option>
-                        <option value="ADS">Análise e Desenvolvimento de Sistemas</option>
-                        <option value="SI">Sistemas para Internet</option>
-                    </select>
-                    <span class="mensagem__erro"></span>
-                </fieldset>
-                <fieldset>
-                    <legend class="forms__label">Turno</legend>
+            <form class="formulario" data-formulario>
+                <h3 class="titulo__politica-uso">Aceite os Termos da Política de Uso</h3>
+                <p class="texto__termos-uso container">Prezado(a) usuário(a) do laboratório,</p>
+                <p class="texto__termos-uso container">Antes de iniciar qualquer atividade em nosso laboratório, é
+                    necessário que
+                    você leia e aceite os termos da política de uso aqui descritos. A sua aceitação é um requisito
+                    indispensável para a utilização das instalações e equipamentos disponíveis em nosso espaço.</p>
+                <p class="texto__termos-uso container">Ao aceitar a política de uso, você se compromete a seguir todas
+                    as normas e
+                    regulamentos estabelecidos pelo laboratório, incluindo o respeito às regras de segurança, o
+                    cumprimento dos horários de funcionamento, a correta utilização dos equipamentos e materiais
+                    disponíveis, além do compromisso em manter o espaço limpo e organizado.</p>
+                <p class="texto__termos-uso container">É importante ressaltar que o laboratório é um espaço de trabalho
+                    coletivo,
+                    e portanto, o respeito mútuo é fundamental para garantir a harmonia e a eficiência das atividades
+                    desenvolvidas no local. Dessa forma, pedimos que todos os usuários se comprometam a manter uma
+                    conduta adequada e respeitosa, evitando qualquer comportamento que possa prejudicar o bom andamento
+                    das atividades ou colocar em risco a segurança e a integridade física de outras pessoas.</p>
+                <p class="texto__termos-uso container">Ao aceitar os termos da política de uso, você também concorda em
+                    arcar com
+                    eventuais custos decorrentes de danos causados aos equipamentos e materiais do laboratório durante a
+                    sua utilização. A utilização dos recursos do laboratório é de responsabilidade dos usuários, que
+                    deverão zelar pela sua integridade e manutenção.</p>
+                <p class="texto__termos-uso container">Por fim, ressaltamos que o laboratório é um ambiente de
+                    aprendizado e
+                    pesquisa, e sua utilização deve estar sempre voltada para fins acadêmicos e científicos. Qualquer
+                    atividade ou comportamento que não esteja em consonância com essa finalidade será considerado uma
+                    violação aos termos da política de uso, podendo resultar em sanções disciplinares.</p>
+                <p class="texto__termos-uso container">Agradecemos pela sua atenção e colaboração na manutenção de um
+                    ambiente de
+                    trabalho seguro, produtivo e colaborativo. Ao clicar no botão de aceite, você confirma estar ciente
+                    e concorda com os termos da política de uso do laboratório.</p>
+                <p class="texto__termos-uso container">Atenciosamente,</p>
+                <p class="texto__termos-uso container">A equipe do laboratório.</p>
 
-                    <input type="radio" id="manha" name="horario" value="manha" required>
-                    <label class="forms__label" for="manha">Manhã</label>
-                    
-                    <input type="radio" id="tarde" name="horario" value="tarde" required>
-                    <label class="forms__label" for="tarde">Tarde</label>
-                    
-                    <input type="radio" id="noite" name="horario" value="noite" required>
-                    <label class="forms__label" for="noite">Noite</label>
-                </fieldset>                  
+                <fieldset class="formulario__termos">
+                    <input name="termos" class="termos__input" type="checkbox" required>
+                    <p class="texto__termos-uso">Li e estou ciente quanto às condições de tratamento dos meus dados
+                        conforme
+                        descrito na Política de Privacidade do Porto Digital.</p>
+                    <span class="mensagem__erro"></span>
+                </fieldset>
+
                 <div class="forms">
-                    <input value="Finalizar" class="submit" name="enviar" id="enviar" type="submit" required>
+                    <input value="Avançar" class="submit" name="enviar" id="enviar" data-botao-enviar type="submit"
+                        required>
                     <span class="mensagem__erro"></span>
                 </div>
             </form>
@@ -154,6 +150,7 @@
             <a href="#" class="rodape__texto">portodigital@portodigital.org</a>
         </div>
     </footer>
+    <script src="./js/controller-form-1.js" type="module"></script>
 </body>
 
 </html>

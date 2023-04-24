@@ -19,6 +19,8 @@
 body {
     font-family: var(--font-family-primary);
     background-color: #000000;
+    margin: 0 auto;
+    max-width: 1200px;
 }
 
 .container {

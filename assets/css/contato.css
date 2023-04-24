@@ -1,4 +1,5 @@
 .contato {
+    position: relative;
     background: var(--color-secundary);
     display: flex;
     align-items: center;

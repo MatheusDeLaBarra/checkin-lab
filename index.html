@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Residência Onboard - Porto Digital</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -18,7 +18,8 @@
     <link rel="stylesheet" href="./assets/css/menu/menu-navegacao.css">
     <link rel="stylesheet" href="./assets/css/menu/menu-itens.css">
     <link rel="stylesheet" href="./assets/css/menu/menu-link.css">
-    <link rel="stylesheet" href="./assets/css/forms/forms.css">
+    <link rel="stylesheet" href="./assets/css/sobre.css">
+    <link rel="stylesheet" href="./assets/css/botao.css">
     <link rel="stylesheet" href="./assets/css/contato.css">
     <link rel="stylesheet" href="./assets/css/contato/contato-bloco-titulo.css">
     <link rel="stylesheet" href="./assets/css/contato/contato-bloco-informacoes.css">
@@ -47,22 +48,33 @@
         </div>
         <nav class="menu container">
             <ul class="menu__navegacao">
-                <li class="menu__itens"><a class="menu__link ativo" href="#">Sobre</a></li>
-                <li class="menu__itens"><a class="menu__link" href="#">Planos</a></li>
-                <li class="menu__itens"><a class="menu__link" href="#">Blog</a></li>
-                <li class="menu__itens"><a class="menu__link" href="#">Destaques</a></li>
-                <li class="menu__itens"><a class="menu__link" href="#">Institucional</a></li>
-                <li class="menu__itens"><a class="menu__link" href="#">Contato</a></li>
+                <li class="menu__itens"><a class="menu__link ativo" href="#sobre">Sobre</a></li>
+                <li class="menu__itens"><a class="menu__link" href="https://residencia.portodigital.org"
+                        target="_blank">Blog</a></li>
+                <li class="menu__itens"><a class="menu__link" href="#destaque">Destaques</a></li>
+                <li class="menu__itens"><a class="menu__link" href="./pages/cadastro-form-1.html">Cadastre-se</a></li>
+                <li class="menu__itens"><a class="menu__link" href="#contato">Contato</a></li>
             </ul>
         </nav>
     </header>
-    <section class="forms">
-        <iframe
-            src="https://docs.google.com/forms/d/e/1FAIpQLSddugul5mMtStXTm4VfhQxkX0tCJU_YZX8G3lLA42z7ySlHAw/viewform?embedded=true"
-            width="100%" height="1166" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
-    </section>
+    <main>
+        <section id="sobre" class="sobre elemento">
+            <img class="banner" src="./assets/src/img/background/laborario.jpeg" alt="">
+            <div class="container"><h1 class="sobre__titulo">Bem-vindos à Residência Onboard</h1></div>
+            <div class="container">
+                <p class="sobre__texto">Sejam bem-vindos à Residência Onboard do Porto Digital! Vocês foram selecionados
+                    para participar deste
+                    programa de imersão no ecossistema de inovação e tecnologia do Recife. Durante os próximos meses,
+                    vocês terão a oportunidade de trabalhar em projetos inovadores, interagir com outros profissionais do
+                    setor, participar de eventos e workshops exclusivos, além de explorar a cultura e a vida local.</p>
+            </div>
 
-    <section class="contato container">
+            <button class="btn__sobre botao ">Saiba Mais!</button>
+        </section>
+        <section id="destaque">
+        </section>
+    </main>
+    <section id="contato" class="contato container">
         <div class="contato__bloco-titulo">
             <h2 class="contato__titulo">Contato</h2>
             <img src="./assets/src/img/background/contato-img.png" alt="" class="contato__imagem">

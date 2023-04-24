@@ -1,0 +1,12 @@
+.botao {
+    position: relative;
+    width: 10rem;
+    height: 3rem;
+    background-color: var(--bg-color-tertiary);
+    border: none;
+}
+
+.botao:hover {
+    cursor: pointer;
+    background-color: #d61337;
+}

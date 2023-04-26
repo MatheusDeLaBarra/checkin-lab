@@ -4,6 +4,7 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    z-index: 1; /* z-index definido para o cabeçalho */
 }
 
 .cabecalho__logo{

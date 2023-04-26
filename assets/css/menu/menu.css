@@ -1,0 +1,38 @@
+.icon__arrow-down {
+    padding-right: 25px;
+    background-image: url('../../src/img/ico/icons8-divisa-circulada-à-abaixo-50.png');
+    background-repeat: no-repeat;
+    background-size:20px;
+    background-position:center;
+}
+
+.lista-suspensa {
+    position: relative;
+}
+
+.menu__lista-suspensa {
+    position: absolute;
+    display: none;
+    width: 150px;
+    background-color: var(--bg-color-primary);
+    padding: 10px 0;
+    z-index: 2; /* z-index definido para a lista suspensa */   
+}
+
+.menu__lista-itens {
+    line-height: 26px;
+    padding: 10px;
+
+}
+
+.menu__lista-itens a {
+    text-align: left;
+    text-decoration: none;
+    font-size: 1.058rem;
+    font-weight: 400;
+    color: rgb(112,112,112);
+}
+
+.lista-suspensa:hover .menu__lista-suspensa {
+    display: block;
+  }

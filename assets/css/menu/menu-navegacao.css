@@ -1,5 +1,6 @@
 .menu__navegacao{
     display: flex;
     align-items: center;  
+    flex-wrap: wrap;
     height: 61px;
 }

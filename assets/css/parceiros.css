@@ -1,0 +1,62 @@
+.parceiros {
+    background-color: var(--bg-color-primary);
+    width: 100vw;
+}
+.parceiros-slider {
+    padding-top: 150px;
+    position: relative;
+    overflow: hidden;
+    background-color: var(--bg-color-primary);
+}
+
+.parceiros-slider-titulo {
+    color: var(--color-tertiary);
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: bold;
+    padding-bottom: 2rem;
+    margin-bottom: 6rem;
+}
+
+.slideshow-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    flex: 0 0 calc(25% - 20px);
+    margin-left: 20px;
+    /* margin-right: 2%; */
+    margin-bottom: 150px;
+    width: 200px;
+}
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.arrow-left {
+    left: 0px;
+    background-image: url('../src/img/ico/arrow-left.png');
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.arrow-right {
+    right: 0px;
+    background-image: url('../src/img/ico/arrow-rigth.png');
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+}

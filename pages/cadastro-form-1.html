@@ -41,20 +41,33 @@
 
 <body>
     <header class="cabecalho">
-        <div class="cabecalho container">
-            <img src="../assets/src/img/logo/onboard-logobranca.png" alt="Logo de Onboard" class="cabecalho__logo">
-            <img src="../assets/src/img/logo/porto-digital-logo.png" alt="Logo de Onboard" class="cabecalho__logo">
+        <div class="cabecalho cabecalho__container">
+            <a href="../index.html"><img src="../assets/src/img/logo/onboard-logobranca.png" alt="Logo de Onboard"
+                    class="cabecalho__logo">
+            </a>
+            <a href="https://www.portodigital.org" target="_blank"> <img
+                    src="../assets/src/img/logo/porto-digital-logo.png" alt="Logo de Onboard" class="cabecalho__logo">
+            </a>
         </div>
-        <nav class="menu container">
+        <nav class="menu cabecalho__container">
             <ul class="menu__navegacao">
-                <li class="menu__itens"><a class="menu__link ativo" href="#">Sobre</a></li>
-                <li class="menu__itens"><a class="menu__link" href="#">Planos</a></li>
-                <li class="menu__itens"><a class="menu__link" href="#">Blog</a></li>
-                <li class="menu__itens"><a class="menu__link" href="#">Destaques</a></li>
-                <li class="menu__itens"><a class="menu__link" href="#">Institucional</a></li>
-                <li class="menu__itens"><a class="menu__link" href="#">Contato</a></li>
+                <li class="menu__itens"><a class="menu__link ativo" href="../index.html#sobre">Sobre</a></li>
+                <li class="menu__itens"><a class="menu__link" href="https://residencia.portodigital.org"
+                        target="_blank">Blog</a></li>
+                <li class="menu__itens lista-suspensa">
+                    <a class="menu__link hover" href="../index.html#sobre">Programa<i class="icon__arrow-down"></i></a>
+                    <ul class="menu__lista-suspensa">
+                        <li class="menu__lista-itens"><a href="../index.html#sobre">Sobre</a></li>
+                        <li class="menu__lista-itens"><a href="../index.html#metodologia">Metodologia</a></li>
+                        <li class="menu__lista-itens"><a href="../index.html#laboratorio">Laboratório</a></li>
+                        <li class="menu__lista-itens"><a href="../indexhtml#parceiros">Parceiros</a></li>
+                    </ul>
+                </li>
+                <li class="menu__itens"><a class="menu__link" href="./cadastro-form-1.html">Cadastre-se</a></li>
+                <li class="menu__itens"><a class="menu__link" href="../index.html#contato">Contato</a></li>
             </ul>
         </nav>
+        <script src="../js/controller-menu-lista.js"></script>
     </header>
     <main>
         <section class="cadastro">
@@ -62,46 +75,46 @@
                 <img class="cadastro__status" src="../assets/src/img/ico/status-1.png">
                 <h2 class="cadastro__titulo">Preencha os campos abaixo para se cadastrar!</h2>
             </div>
-            <form class="formulario" data-formulario>
+            <form class="formulario scrollable" data-formulario>
                 <h3 class="titulo__politica-uso">Aceite os Termos da Política de Uso</h3>
-                <p class="texto__termos-uso container">Prezado(a) usuário(a) do laboratório,</p>
-                <p class="texto__termos-uso container">Antes de iniciar qualquer atividade em nosso laboratório, é
+                <p class="texto__termos-uso form__container">Prezado(a) usuário(a) do laboratório,</p>
+                <p class="texto__termos-uso form__container">Antes de iniciar qualquer atividade em nosso laboratório, é
                     necessário que
                     você leia e aceite os termos da política de uso aqui descritos. A sua aceitação é um requisito
                     indispensável para a utilização das instalações e equipamentos disponíveis em nosso espaço.</p>
-                <p class="texto__termos-uso container">Ao aceitar a política de uso, você se compromete a seguir todas
+                <p class="texto__termos-uso form__container">Ao aceitar a política de uso, você se compromete a seguir todas
                     as normas e
                     regulamentos estabelecidos pelo laboratório, incluindo o respeito às regras de segurança, o
                     cumprimento dos horários de funcionamento, a correta utilização dos equipamentos e materiais
                     disponíveis, além do compromisso em manter o espaço limpo e organizado.</p>
-                <p class="texto__termos-uso container">É importante ressaltar que o laboratório é um espaço de trabalho
+                <p class="texto__termos-uso form__container">É importante ressaltar que o laboratório é um espaço de trabalho
                     coletivo,
                     e portanto, o respeito mútuo é fundamental para garantir a harmonia e a eficiência das atividades
                     desenvolvidas no local. Dessa forma, pedimos que todos os usuários se comprometam a manter uma
                     conduta adequada e respeitosa, evitando qualquer comportamento que possa prejudicar o bom andamento
                     das atividades ou colocar em risco a segurança e a integridade física de outras pessoas.</p>
-                <p class="texto__termos-uso container">Ao aceitar os termos da política de uso, você também concorda em
+                <p class="texto__termos-uso form__container">Ao aceitar os termos da política de uso, você também concorda em
                     arcar com
                     eventuais custos decorrentes de danos causados aos equipamentos e materiais do laboratório durante a
                     sua utilização. A utilização dos recursos do laboratório é de responsabilidade dos usuários, que
                     deverão zelar pela sua integridade e manutenção.</p>
-                <p class="texto__termos-uso container">Por fim, ressaltamos que o laboratório é um ambiente de
+                <p class="texto__termos-uso form__container">Por fim, ressaltamos que o laboratório é um ambiente de
                     aprendizado e
                     pesquisa, e sua utilização deve estar sempre voltada para fins acadêmicos e científicos. Qualquer
                     atividade ou comportamento que não esteja em consonância com essa finalidade será considerado uma
                     violação aos termos da política de uso, podendo resultar em sanções disciplinares.</p>
-                <p class="texto__termos-uso container">Agradecemos pela sua atenção e colaboração na manutenção de um
+                <p class="texto__termos-uso form__container">Agradecemos pela sua atenção e colaboração na manutenção de um
                     ambiente de
                     trabalho seguro, produtivo e colaborativo. Ao clicar no botão de aceite, você confirma estar ciente
                     e concorda com os termos da política de uso do laboratório.</p>
-                <p class="texto__termos-uso container">Atenciosamente,</p>
-                <p class="texto__termos-uso container">A equipe do laboratório.</p>
+                <p class="texto__termos-uso form__container">Atenciosamente,</p>
+                <p class="texto__termos-uso form__container">A equipe do laboratório.</p>
 
                 <fieldset class="formulario__termos">
                     <input name="termos" class="termos__input" type="checkbox" required>
-                    <p class="texto__termos-uso">Li e estou ciente quanto às condições de tratamento dos meus dados
+                    <label class="texto__termos-uso">Li e estou ciente quanto às condições de tratamento dos meus dados
                         conforme
-                        descrito na Política de Privacidade do Porto Digital.</p>
+                        descrito na Política de Privacidade do Porto Digital.</label>
                     <span class="mensagem__erro"></span>
                 </fieldset>
 

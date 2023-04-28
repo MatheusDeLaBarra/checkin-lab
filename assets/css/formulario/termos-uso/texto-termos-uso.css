@@ -1,12 +1,13 @@
 .texto__termos-uso {
     color: var(--color-primary);
     text-align: justify;
-    font-size: 1rem;
-    max-width: 600px;
+    font-size: 1.268rem;
+    font-weight: 100;
+    line-height: 1.568rem;
     margin: 0;
 }
 
-.container {
+.form__container {
     padding: 0.5em 3em;
     margin: 0.5em 2em;
 }

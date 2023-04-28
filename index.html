@@ -24,6 +24,8 @@
     <link rel="stylesheet" href="./assets/css/sobre.css">
     <link rel="stylesheet" href="./assets/css/botao.css">
     <link rel="stylesheet" href="./assets/css/metodologia.css">
+    <link rel="stylesheet" href="./assets/css/laboratorio-galeria.css">
+    <link rel="stylesheet" href="./assets/css/parceiros.css">
     <link rel="stylesheet" href="./assets/css/contato.css">
     <link rel="stylesheet" href="./assets/css/contato/contato-bloco-titulo.css">
     <link rel="stylesheet" href="./assets/css/contato/contato-bloco-informacoes.css">
@@ -46,26 +48,26 @@
 
 <body>
     <header class="cabecalho">
-        <div class="cabecalho container">
-            <a href="#"> <img src="./assets/src/img/logo/onboard-logobranca.png" alt="Logo de Onboard"
+        <div class="cabecalho cabecalho__container">
+            <a href="./index.html"><img src="./assets/src/img/logo/onboard-logobranca.png" alt="Logo de Onboard"
                     class="cabecalho__logo">
             </a>
             <a href="https://www.portodigital.org" target="_blank"> <img
                     src="./assets/src/img/logo/porto-digital-logo.png" alt="Logo de Onboard" class="cabecalho__logo">
             </a>
         </div>
-        <nav class="menu container">
+        <nav class="menu cabecalho__container">
             <ul class="menu__navegacao">
                 <li class="menu__itens"><a class="menu__link ativo" href="#sobre">Sobre</a></li>
                 <li class="menu__itens"><a class="menu__link" href="https://residencia.portodigital.org"
                         target="_blank">Blog</a></li>
                 <li class="menu__itens lista-suspensa">
-                    <a class="menu__link hover" href="#">Programa<i class="icon__arrow-down"></i></a>
+                    <a class="menu__link hover" href="#sobre">Programa<i class="icon__arrow-down"></i></a>
                     <ul class="menu__lista-suspensa">
-                        <li class="menu__lista-itens"><a href="">O que é</a></li>
                         <li class="menu__lista-itens"><a href="#sobre">Sobre</a></li>
                         <li class="menu__lista-itens"><a href="#metodologia">Metodologia</a></li>
-                        <li class="menu__lista-itens"><a href="#contato">Contato</a></li>
+                        <li class="menu__lista-itens"><a href="#laboratorio">Laboratório</a></li>
+                        <li class="menu__lista-itens"><a href="#parceiros">Parceiros</a></li>
                     </ul>
                 </li>
                 <li class="menu__itens"><a class="menu__link" href="./pages/cadastro-form-1.html">Cadastre-se</a></li>
@@ -75,12 +77,12 @@
         <script src="./js/controller-menu-lista.js"></script>
     </header>
     <main>
-        <section id="sobre" class="sobre elemento">
+        <section id="sobre" class="sobre elemento container">
             <img class="banner" src="./assets/src/img/background/laborario.jpeg" alt="">
-            <div class="container">
+            <div class="sobre__container">
                 <h1 class="sobre__titulo">Bem-vindos à Residência Onboard</h1>
             </div>
-            <div class="container">
+            <div class="sobre__container">
                 <p class="sobre__texto">Sejam bem-vindos à Residência Onboard do Porto Digital! Vocês foram selecionados
                     para participar deste
                     programa de imersão no ecossistema de inovação e tecnologia do Recife. Durante os próximos meses,
@@ -91,7 +93,7 @@
 
             <button class="btn__sobre botao ">Saiba Mais!</button>
         </section>
-        <section id="metodologia" class="metodologia">
+        <section id="metodologia" class="metodologia ">
             <div class="metodologia__elemento-titulo">
                 <h2 class="metodologia__titulo">Metodologia do Onboard</h2>
             </div>
@@ -126,6 +128,86 @@
                 </div>
             </div>
         </section>
+        <section id="laboratorio" class="laboratorio container">
+            <h2>laboratório Residência</h2>
+            <div class="laboratorio__galeria">
+                <div style="background-image: url('./assets/src/img/galeria/IMG_0001.JPG');"
+                    class="elemento__galeria-imagens"></div>
+                <div style="background-image: url('./assets/src/img/galeria/IMG_0002.JPG');"
+                    class="elemento__galeria-imagens"></div>
+                <div style="background-image: url('./assets/src/img/galeria/IMG_0003.JPG');"
+                    class="elemento__galeria-imagens"></div>
+                <div style="background-image: url('./assets/src/img/galeria/IMG_0004.JPG');"
+                    class="elemento__galeria-imagens"></div>
+                <div style="background-image: url('./assets/src/img/galeria/IMG_0005.JPG');"
+                    class="elemento__galeria-imagens"></div>
+            </div>
+            <div class="elemento__galeria-btn">
+                <button class="botao">Registre sua Presença!<a href="#"></a></button>
+            </div>
+            <p>Certifique-se de seguir todas as normas e regras do laboratório para garantir a sua segurança e a dos
+                demais usuários. Mantenha um comportamento respeitoso e profissional em relação aos demais usuários e ao
+                ambiente. Desejamos que você tenha uma excelente estadia aqui no laboratório do Porto
+                Digital e aproveite ao máximo as oportunidades oferecidas.</p>
+        </section>
+      <section class="parceiros">
+        <section id="parceiros" class="parceiros-slider container">
+            <h2 class="parceiros-slider-titulo">Empresas e instituicões embarcadas no Onboard</h2>
+            <div class="slideshow-container">
+                <div class="slide">
+                    <img src="./assets/src/img/galeria/parceiro-0001.png">
+                </div>
+                <div class="slide">
+                    <img src="./assets/src/img/galeria/parceiro-0002.png">
+                </div>
+                <div class="slide">
+                    <img src="./assets/src/img/galeria/parceiro-0003.png">
+                </div>
+                <div class="slide">
+                    <img src="./assets/src/img/galeria/parceiro-0004.png">
+                </div>
+                <div class="slide">
+                    <img src="./assets/src/img/galeria/parceiro-0005.png">
+                </div>
+                <div class="slide">
+                    <img src="./assets/src/img/galeria/parceiro-0006.png">
+                </div>
+                <div class="slide">
+                    <img src="./assets/src/img/galeria/parceiro-0007.png">
+                </div>
+                <div class="slide">
+                    <img src="./assets/src/img/galeria/parceiro-0008.png">
+                </div>
+                <div class="slide">
+                    <img src="./assets/src/img/galeria/parceiro-0009.png">
+                </div>
+                <div class="slide">
+                    <img src="./assets/src/img/galeria/parceiro-0010.png">
+                </div>
+                <div class="slide">
+                    <img src="./assets/src/img/galeria/parceiro-0011.png">
+                </div>
+                <div class="slide">
+                    <img src="./assets/src/img/galeria/parceiro-0012.png">
+                </div>
+                <div class="slide">
+                    <img src="./assets/src/img/galeria/parceiro-0013.png">
+                </div>
+                <div class="slide">
+                    <img src="./assets/src/img/galeria/parceiro-0014.png">
+                </div>
+                <div class="slide">
+                    <img src="./assets/src/img/galeria/parceiro-0015.png">
+                </div>
+                <div class="slide">
+                    <img src="./assets/src/img/galeria/parceiro-0016.png">
+                </div>
+                <!-- Adicione mais divs com as imagens das outras empresas -->
+            </div>
+            <div class="arrow arrow-left"></div>
+            <div class="arrow arrow-right"></div>
+    </section>
+      </section>
     </main>
     <section id="contato" class="contato container">
         <div class="contato__bloco-titulo">
@@ -143,7 +225,8 @@
                 </figure>
                 <figure class="contato__informacoes">
                     <img src="./assets/src/img/ico/o-email.png" alt="Icone de usuarios" class="contato__icones">
-                    <figcaption class="contato__itens"><a class="contato__link" href="#">Envie um email para
+                    <figcaption class="contato__itens"><a class="contato__link"
+                            href="mailto:residencia@portodigital.org">Envie um email para
                             residencia@portodigital.org</a></figcaption>
                 </figure>
                 <figure class="contato__informacoes">
@@ -157,18 +240,19 @@
             </div>
         </div>
     </section>
-    <footer class="rodape">
+    <footer class="rodape container">
         <div class="rodape__bloco-informacoes">
             <img class="rodape__imagem" src="./assets/src/img/logo/porto-digital-logo.png" alt="Logo do Porto Digital">
             <p class="rodape__texto">Av. Cais do Apolo, 222 - Bairro do Recife CEP 50030-230, Recife/PE - Brasil</p>
             <div class="rodape__redes-sociais">
-                <a href="#" class="rodape__itens"><img src="./assets/src/img/ico/facebook.svg"
-                        alt="Logo do facebook"></a>
-                <a href="#" class="rodape__itens"><img src="./assets/src/img/ico/instagram.svg"
-                        alt="Logo do instagram"></a>
-                <a href="#" class="rodape__itens"><img src="./assets/src/img/ico/twitter.svg" alt="Logo do twitter"></a>
-                <a href="#" class="rodape__itens"><img src="./assets/src/img/ico/linkedin.svg"
-                        alt="Logo do linkedin"></a>
+                <a href="https://www.facebook.com/portodigital" target="_blank" class="rodape__itens"><img
+                        src="./assets/src/img/ico/facebook.svg" alt="Logo do facebook"></a>
+                <a href="https://www.instagram.com/portodigital/" target="_blank" class="rodape__itens"><img
+                        src="./assets/src/img/ico/instagram.svg" alt="Logo do instagram"></a>
+                <a href="https://twitter.com/porto_digital" target="_blank" class="rodape__itens"><img
+                        src="./assets/src/img/ico/twitter.svg" alt="Logo do twitter"></a>
+                <a href="https://br.linkedin.com/company/portodigital" target="_blank" class="rodape__itens"><img
+                        src="./assets/src/img/ico/linkedin.svg" alt="Logo do linkedin"></a>
             </div>
         </div>
         <div class="rodape__bloco-informacoes">
@@ -194,6 +278,7 @@
             <a href="#" class="rodape__texto">portodigital@portodigital.org</a>
         </div>
     </footer>
+    <script src="./js/controller-slider.js"></script>
 </body>
 
 </html>

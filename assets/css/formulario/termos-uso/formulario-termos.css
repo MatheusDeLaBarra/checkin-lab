@@ -1,7 +1,6 @@
 .formulario__termos {
     display: flex;
+    max-width: 800px;
     flex-wrap: wrap;
-    justify-content: center;
-    max-width: 700px;
     margin: 0 auto;
 }

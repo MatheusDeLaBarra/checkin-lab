@@ -1,4 +1,8 @@
 .termos__input {
+   position: relative;
+   top: 30px;
+   right: 30px;
    width: 20px;
    height: 20px;
+   margin-right: 1rem;
 }

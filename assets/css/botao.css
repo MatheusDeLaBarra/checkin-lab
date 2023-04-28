@@ -1,8 +1,9 @@
 .botao {
     position: relative;
-    width: 10rem;
-    height: 3rem;
+    width: 15rem;
+    height: 4rem;
     background-color: var(--bg-color-tertiary);
+    color: var(--color-primary);
     border: none;
 }
 

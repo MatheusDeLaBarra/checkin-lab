@@ -11,12 +11,11 @@
 .banner {
     position: absolute;
     opacity: 0.4;
-    max-width: 1200px;
-    width: 100%;
+    width: 100vw;
     height: 600px;
 }
 
-.container{
+.sobre__container{
     margin: 1em auto;
     padding: 1em;
 }
@@ -39,7 +38,7 @@
 }
 
 .btn__sobre {
-    color: var(--color-primary);
+    margin-top: 2rem;
     font-size: 1.2em;
     font-weight: 300;
 }
